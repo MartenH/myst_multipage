@@ -1,3 +1,6 @@
+---
+title: Ignored placeholder...
+---
 
 # 02 Heading level 1
 
