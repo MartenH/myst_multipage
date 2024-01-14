@@ -1,14 +1,28 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  title: Project Title
+  title: Frontmatter Title
   # description:
   keywords: []
-  authors: [
-    "Project Author"
-  ]
+  authors:
+    - name: Frontmatter Author
   # github:
   # bibliography: []
+  exports:
+    - format: pdf
+      articles:
+        - 01_chap_1.md
+        - 02_chap_2.md
+        - 03_chap_3.md
+      template: plain_latex_book
+      output: book.pdf
+    - format: tex
+      articles:
+        - 01_chap_1.md
+        - 02_chap_2.md
+        - 03_chap_3.md
+      template: plain_latex_book
+      output: book.tex
 site:
   # template: book-theme
   # title:
